@@ -15,11 +15,33 @@ h1 {
   font-size: 250%;
 }
 
+img {
+float: left;
+margin: 20px;
+}
+
 .recipe {
   text-align: left;
   background-color: lightgreen;
   color: forestgreen;
-  margin: 50px 500px;
+  margin: 25px 500px;
   padding: 25px;
   border-radius: 50px;
+  float: right;
+  width: 50%;
+}
+
+.rating {
+  font-size: 175%;
+  margin: -5px;
+}
+
+.ratingNum {
+  font-size: 70%;
+}
+
+.news {
+  margin: 50px 500px;
+  padding: 25px;
+  font-size: 125%;
 }
