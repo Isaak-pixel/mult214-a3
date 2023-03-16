@@ -13,8 +13,23 @@ function App() {
       <h1>Trending Recipes</h1>
 
       <div className="recipe">
-        <h2>Recipe Name</h2>
-        <h3>Recipe Subtitle</h3>
+      <img src="https://placekitten.com/400/250" alt="placeholder image" />
+        <h2>Recipe Name Number 1</h2>
+        <h3>Recipe Subtitle Number 1</h3>
+        <h4>Recipe Description. This will be a sectence or two long, and describe what the dish is like in more details.</h4>
+        <p>Prep Time: <strong>45mins</strong></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+      </div>
+
+      <div className="recipe">
+        <h2>Recipe Name Number 2</h2>
+        <h3>Recipe Subtitle Number 2</h3>
+        <p>Prep Time: <strong>45mins</strong></p>
+      </div>
+
+      <div className="recipe">
+        <h2>Recipe Name Number 3</h2>
+        <h3>Recipe Subtitle Number 3</h3>
         <p>Prep Time: <strong>45mins</strong></p>
       </div>
 
