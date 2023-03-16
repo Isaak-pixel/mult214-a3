@@ -9,3 +9,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.recipe {
+  text-align: left;
+  background-color: seagreen;
+  margin: 50px 500px;
+  padding: 25px;
+  border-radius: 50px;
+}
