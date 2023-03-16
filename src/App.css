@@ -10,20 +10,26 @@
   font-size: 300%;
 }
 
+.capitalHead {
+  color: lightseagreen;
+}
+
 h1 {
   color: forestgreen;
-  font-size: 250%;
+  font-size: 350%;
 }
 
 img {
-float: left;
-margin: 20px;
+  float: left;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 .recipe {
   text-align: left;
   background-color: lightgreen;
-  color: forestgreen;
+  color: darkgreen;
+  font-size: 105%;
   margin: 25px 500px;
   padding: 25px;
   border-radius: 50px;
@@ -43,5 +49,4 @@ margin: 20px;
 .news {
   margin: 50px 500px;
   padding: 25px;
-  font-size: 125%;
 }
