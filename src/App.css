@@ -50,3 +50,8 @@ img {
   margin: 50px 500px;
   padding: 25px;
 }
+
+footer {
+  float: left;
+  width: 100%;
+}
