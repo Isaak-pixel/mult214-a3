@@ -66,35 +66,54 @@ function App() {
 
       <h1>List of Recipes</h1>
         <div class="classList">
-        <div className="recipe">
-        <img src="https://placekitten.com/401/251" alt="placeholder image" />
-          <h2>Recipe Name, the Actual Name of the Recipe</h2>
-          <h3>Recipe Subtitle A short subheading of the recipe.</h3>
-          <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
-          <p>Prep Time: <strong>45mins</strong></p>
-          <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
-        </div>
+          <div className="recipe">
+          <img src="https://placekitten.com/401/251" alt="placeholder image" />
+            <h2>Recipe Name, the Actual Name of the Recipe</h2>
+            <h3>Recipe Subtitle A short subheading of the recipe.</h3>
+            <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
+            <p>Prep Time: <strong>45mins</strong></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+          </div>
 
-        <div className="recipe">
-        <img src="https://placekitten.com/402/251" alt="placeholder image" />
-          <h2>Recipe Name, the Actual Name of the Recipe</h2>
-          <h3>Recipe Subtitle A short subheading of the recipe.</h3>
-          <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
-          <p>Prep Time: <strong>45mins</strong></p>
-          <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
-        </div>
+          <div className="recipe">
+          <img src="https://placekitten.com/402/251" alt="placeholder image" />
+            <h2>Recipe Name, the Actual Name of the Recipe</h2>
+            <h3>Recipe Subtitle A short subheading of the recipe.</h3>
+            <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
+            <p>Prep Time: <strong>45mins</strong></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+          </div>
 
-        <div className="recipe">
-        <img src="https://placekitten.com/401/252" alt="placeholder image" />
-          <h2>Recipe Name, the Actual Name of the Recipe</h2>
-          <h3>Recipe Subtitle A short subheading of the recipe.</h3>
-          <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
-          <p>Prep Time: <strong>45mins</strong></p>
-          <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
-        </div>
+          <div className="recipe">
+          <img src="https://placekitten.com/401/252" alt="placeholder image" />
+            <h2>Recipe Name, the Actual Name of the Recipe</h2>
+            <h3>Recipe Subtitle A short subheading of the recipe.</h3>
+            <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
+            <p>Prep Time: <strong>45mins</strong></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+          </div>
         </div>
 
       <h1>Saved Recipes</h1>
+      <div className="recipe">
+        <img src="https://placekitten.com/400/249" alt="placeholder image" />
+        <h2>Recipe Name, the Actual Name of the Recipe</h2>
+        <h3>Recipe Subtitle A short subheading of the recipe.</h3>
+        <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
+        <p>Prep Time: <strong>45mins</strong></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+      </div>
+
+      <div className="recipe">
+        <img src="https://placekitten.com/400/248" alt="placeholder image" />
+        <h2>Recipe Name, the Actual Name of the Recipe</h2>
+        <h3>Recipe Subtitle A short subheading of the recipe.</h3>
+        <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
+        <p>Prep Time: <strong>45mins</strong></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+      </div>
+
+      <footer>Disclaimer: Please do not cook any cats. The cats are cute and are only meant for placeholder purposes.</footer>
     </div>
   );
 }
