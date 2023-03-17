@@ -65,6 +65,9 @@ function App() {
       </div>
 
       <h1>List of Recipes</h1>
+      <input type="text" placeholder="Search Recipes" />
+      <button>Filters &#8801;</button>
+
         <div class="classList">
           <div className="recipe">
           <img src="https://placekitten.com/401/251" alt="placeholder image" />
@@ -95,6 +98,9 @@ function App() {
         </div>
 
       <h1>Saved Recipes</h1>
+      <input type="text" placeholder="Search Saved Recipes" />
+      <button>Search Groups</button>
+
       <div className="recipe">
         <img src="https://placekitten.com/400/249" alt="placeholder image" />
         <h2>Recipe Name, the Actual Name of the Recipe</h2>
