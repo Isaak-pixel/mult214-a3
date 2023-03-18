@@ -1,8 +1,8 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
 
 function App() {
-
 
   return (
     <div className="App">
@@ -18,7 +18,7 @@ function App() {
         <h3>Recipe Subtitle A short subheading of the recipe.</h3>
         <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
         <p>Prep Time: <strong>45mins</strong></p>
-        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
       </div>
 
       <div className="recipe">
@@ -27,7 +27,7 @@ function App() {
         <h3>Recipe Subtitle A short subheading of the recipe.</h3>
         <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
         <p>Prep Time: <strong>45mins</strong></p>
-        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
       </div>
 
       <div className="recipe">
@@ -36,7 +36,7 @@ function App() {
         <h3>Recipe Subtitle A short subheading of the recipe.</h3>
         <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
         <p>Prep Time: <strong>45mins</strong></p>
-        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
       </div>
 
       <div className="news">
@@ -54,7 +54,6 @@ function App() {
         Phasellus bibendum sagittis accumsan. Mauris mollis augue ut mauris eleifend, in consectetur sapien interdum.
         Fusce tincidunt maximus sodales. Curabitur suscipit diam a justo tincidunt dapibus. Morbi a cursus risus. Nulla
         et magna tortor. Sed mi ipsum, pretium vel nulla eget, volutpat placerat erat.
-
         Pellentesque convallis laoreet justo. Proin mauris lectus, mattis at sem non, tempus eleifend enim. Donec accumsan
         aliquet lectus posuere lobortis. Donec at augue ac nulla molestie imperdiet dignissim at leo. Proin ante odio,
         condimentum a risus ac, hendrerit consequat lacus. Donec nec nisl quis mauris varius bibendum. Ut scelerisque in leo id
@@ -66,7 +65,7 @@ function App() {
 
       <h1>List of Recipes</h1>
       <input type="text" placeholder="Search Recipes" />
-      <button>Filters &#8801;</button>
+      <button>Search</button> <button>Filters &#8801;</button>
 
         <div class="classList">
           <div className="recipe">
@@ -75,7 +74,7 @@ function App() {
             <h3>Recipe Subtitle A short subheading of the recipe.</h3>
             <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
             <p>Prep Time: <strong>45mins</strong></p>
-            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
           </div>
 
           <div className="recipe">
@@ -84,7 +83,7 @@ function App() {
             <h3>Recipe Subtitle A short subheading of the recipe.</h3>
             <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
             <p>Prep Time: <strong>45mins</strong></p>
-            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
           </div>
 
           <div className="recipe">
@@ -93,13 +92,13 @@ function App() {
             <h3>Recipe Subtitle A short subheading of the recipe.</h3>
             <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
             <p>Prep Time: <strong>45mins</strong></p>
-            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123)</span></p>
+            <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
           </div>
         </div>
 
       <h1>Saved Recipes</h1>
       <input type="text" placeholder="Search Saved Recipes" />
-      <button>Search Groups</button>
+      <button>Search Groups</button> <button>Create New Group</button>
 
       <div className="recipe">
         <img src="https://placekitten.com/400/249" alt="placeholder image" />
