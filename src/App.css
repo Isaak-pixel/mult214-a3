@@ -72,6 +72,15 @@ button {
   font-size: 150%;
   font-weight: bold;
   cursor: pointer;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: darkgreen;
+  border: 3px solid lightgreen;
+  color: lightgreen;
+  transition: 0.5s;
 }
 
 footer {
