@@ -4,6 +4,13 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
+  const [count, setCount] = useState(50);
+  const [fav, favCount] = useState(0);
+
+  useEffect(() => {
+    favCount(() => fav + 1);
+  }, [fav]);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -27,7 +34,7 @@ function App() {
         <h3>Recipe Subtitle A short subheading of the recipe.</h3>
         <h5>Recipe Description. This description will be a sectence or two long, and describe what the dish is like in more details.</h5>
         <p>Prep Time: <strong>45mins</strong></p>
-        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: 50 </span></p>
+        <p class="rating">&#9733; &#9733; &#9733; &#9733; &#9734; <span class="ratingNum">(123) - Favourites: {count} </span> <button class="favBtn" onClick={() => setCount((x) => x + 1)}>Fav</button></p>
       </div>
 
       <div className="recipe">
