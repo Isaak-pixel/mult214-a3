@@ -76,6 +76,22 @@ button {
   transition: 0.5s;
 }
 
+.favBtn {
+  background-color: lightgreen;
+  border: 3px solid darkgreen;
+  color: darkgreen;
+  border-radius: 25px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.5s;
+}
+
 button:hover {
   background-color: darkgreen;
   border: 3px solid lightgreen;
